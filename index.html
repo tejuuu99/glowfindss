@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pinterest Products Showcase</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>My Product Showcase</h1>
+    <nav>
+      <input type="text" id="search" placeholder="Search products...">
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+      </select>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Featured Products</h2>
+    <div class="featured-products"></div>
+  </section>
+
+  <main id="productGrid" class="masonry-grid">
+    <!-- Products loaded automatically from Pinterest API -->
+  </main>
+
+  <footer>
+    <p>Follow us on Pinterest | Instagram</p>
+    <form id="newsletterForm">
+      <input type="email" placeholder="Your email">
+      <button>Subscribe</button>
+    </form>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
